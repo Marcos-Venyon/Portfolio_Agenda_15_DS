@@ -33,12 +33,3 @@ Para elevar o projeto acima do modelo base de aula, foram incorporados recursos 
 1. **Alternador de Modo Claro / Noturno (Dark Mode / Light Mode):** Um botão interativo no menu que altera o esquema de cores da página inteira e salva a preferência do usuário no armazenamento local do navegador.
 2. **Ícones Tecnológicos Dinâmicos (Devicon):** Inclusão de ícones oficiais estilizados nas barras de competências e nos cards de projetos.
 3. **Animações e Efeitos Visuais (Hover & Transitions):** Microinterações CSS nos cards (`transform: translateY` e sombras dinâmicas) e transições suaves de cores na alternância de temas.
-
-## Como o Recurso Novo foi Implementado
-- **Modo Noturno (Dark Mode):** Utilizou-se o atributo nativo `data-bs-theme="dark"` / `"light"` do Bootstrap 5 associado a um script JavaScript que escuta o clique no botão de alternância e persiste o estado utilizando o `localStorage.setItem()`:
-  ```javascript
-  const htmlElement = document.documentElement;
-  function setTheme(theme) {
-    htmlElement.setAttribute('data-bs-theme', theme);
-    localStorage.setItem('theme', theme);
-  }
