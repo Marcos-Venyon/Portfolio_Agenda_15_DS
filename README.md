@@ -17,7 +17,7 @@ Este projeto consiste na evolução de um portfólio web pessoal desenvolvido pa
 - **GitHub Pages:** Hospedagem e publicação contínua da aplicação web.
 
 ## Link do Site Publicado
-- **URL do GitHub Pages:** `https://marcos-venyon.github.io/NOME-DO-SEU-REPOSITORIO/`
+- **URL do GitHub Pages:** `https://marcos-venyon.github.io/Portfolio_Agenda_15_DS/`
 
 ## Funcionamento do Projeto
 O portfólio foi estruturado em formato *Single Page Application* (SPA) com navegação fluida:
